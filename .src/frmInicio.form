@@ -1,0 +1,58 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,71,48)
+  Background = Color.Blue
+  Text = ("TELA DE LOGIN")
+  { Label1 Label
+    MoveScaled(6,41,10,4)
+    Foreground = Color.White
+    Text = ("Usuario")
+  }
+  { TextBox1 TextBox
+    MoveScaled(16,7,21,4)
+    Text = ("Nome")
+  }
+  { TextBox2 TextBox
+    MoveScaled(16,13,21,4)
+    Text = ("Endereço")
+  }
+  { Button1 Button
+    MoveScaled(30,32,16,12)
+    Text = ("Adicionar")
+    Picture = Picture["icon:/32/apply"]
+  }
+  { Label2 Label
+    MoveScaled(4,7,10,4)
+    Foreground = Color.White
+    Text = ("Nome:")
+    Alignment = Align.Right
+  }
+  { Label3 Label
+    MoveScaled(4,13,10,4)
+    Foreground = Color.White
+    Text = ("Endereço:")
+    Alignment = Align.Right
+  }
+  { Label4 Label
+    MoveScaled(4,20,10,4)
+    Foreground = Color.White
+    Text = ("Telefone:")
+    Alignment = Align.Right
+  }
+  { TextBox3 TextBox
+    MoveScaled(16,19,21,4)
+    Text = ("Telefone")
+  }
+  { PictureBox1 PictureBox
+    MoveScaled(45,7,16,16)
+    Border = Border.Sunken
+    Picture = Picture["eu cancun.jpg"]
+    Mode = PictureBox.Fill
+  }
+  { Button2 Button
+    MoveScaled(62,13,5,5)
+    ToolTip = ("Alterar")
+    Picture = Picture["icon:/32/replace"]
+  }
+}
